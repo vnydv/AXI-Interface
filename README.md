@@ -1,2 +1,2 @@
-# AXI-Controller
-Designing an AXI interface in Verilog
+# AXI-Interface
+Designing and Verifying an AXI interface in Verilog
