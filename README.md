@@ -1,10 +1,17 @@
 # A simple subordinator AXI-Lite Interface
 
+### tldr
+  > Curiously picked up an ARM SoC manual, the interconnects grabbed the attention. LOL, it was good, why not try implementing one, but why AXI-Lite, hmmm... was starting out with PYNQ-ZU FPGA, AXI kinda felt familiar, from that old Inter-IIT Tech meet Chiplet Design Challenge....
+
+
 The Advanced eXtensible Interface 4 (AXI4) is a family of interconnect buses defined as part of the fourth generation of the ARM Advanced Microcontroller Bus Architecture (AMBA) standard.
 
 This repo is the implementation for AXI-lite.
 
 Though AXI-Lite is a subset of AXI, it lacks burst access capability but has a simpler interface than the full AXI4 interface.
+
+
+
 
 ## Port definition
 ![image](https://github.com/vnydv/AXI-Interface/blob/main/docs_images/axi-lite_interface.png)
